@@ -1,16 +1,15 @@
 let str = "naman";
 let count = 1;
 
-for(i = 1 ; i<str,length; i++){
+for(i = 0 ; i<str.length; i++){
     if(str[i] == str[str.length -1-i]){
         continue;
     }else{
         count =0;
         console.log("Not Palindrome");
-        break
+        break;
     }
 }
-
-if(count){
+if(count==1){
     console.log("Palindrome");
 }
